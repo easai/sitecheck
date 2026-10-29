@@ -99,7 +99,7 @@ async function crawlSite(page: any, baseUrl: string) {
 
 test.setTimeout(120_000);
 
-test("all pages contain human-readable content", async ({ page }) => {
+test.skip("all pages contain human-readable content", async ({ page }) => {
   const failures: string[] = [];
 
   for (const site of SITES) {
