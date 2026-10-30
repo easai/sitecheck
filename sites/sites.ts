@@ -14,8 +14,20 @@ export const sites = [
     baseUrl: "https://biology-easai.web.app/",
   },
   {
+    name: "neuroscience",
+    baseUrl: "https://neuroscience-easai.web.app/",
+  },
+  {
     name: "elisp",
     baseUrl: "https://elisp-easai-home.web.app/",
+  },
+  {
+    name: "mattika",
+    baseUrl: "https://mattika-easai.web.app/",
+  },
+  {
+    name: "cpu",
+    baseUrl: "https://cpu-easai-4edc3.web.app/",
   },
 ]; 
   
